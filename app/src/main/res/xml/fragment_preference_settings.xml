@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/title_first_section">
+
+        <CheckBoxPreference
+            android:key="@string/hidden_ssid_key"
+            android:defaultValue="false"
+            android:title="@string/hidden_ssid_setting"
+            />
+
+        <ListPreference
+            android:key="@string/wifi_interval_key"
+            android:title="@string/wifi_scan_setting_text"
+            android:entries="@array/wifi_intervals"
+            android:entryValues="@array/wifi_intervals"
+            android:defaultValue="@string/wifi_interval_5"
+            />
+
+        <ListPreference
+            android:key="@string/device_interval_key"
+            android:title="@string/device_scan_setting_text"
+            android:dialogTitle="@string/device_scan_setting_text"
+            android:entries="@array/device_intervals"
+            android:entryValues="@array/device_intervals"
+            android:defaultValue="@string/device_interval_medium"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

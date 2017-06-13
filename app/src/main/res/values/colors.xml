@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorPrimaryLight">#5C6BC0</color>
+
+    <color name="colorGrey">#D3D3D3</color>
+
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackgroundRV">#EEEEEE</color>
+
+
+    <color name="colorConnected">#F44336</color>
+
+    <color name="colorHighRange">#00C853</color>
+    <color name="colorMidRange">#AEEA00</color>
+    <color name="colorAvgRange">#DD2C00</color>
+    <color name="colorLowRange">#EF9A9A</color>
+
+
+
+</resources>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundRV"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/wifi_name_CV"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/wifi_card_margin"
+        android:layout_marginLeft="@dimen/wifi_card_margin"
+        android:layout_marginBottom="@dimen/wifi_card_margin_bottom"
+        android:layout_marginTop="@dimen/wifi_card_margin"
+        card_view:contentPadding="@dimen/wifi_card_padding"
+        card_view:cardElevation="@dimen/wifi_card_elevation"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:id="@+id/connectedToTV"
+            android:layout_gravity="center"
+            android:textSize="@dimen/wifi_card_ssid_label_text_size"
+            android:text="5hari"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/wifi_details_CV"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/wifi_card_margin"
+        android:layout_marginLeft="@dimen/wifi_card_margin"
+        android:layout_marginBottom="@dimen/wifi_card_margin_bottom"
+        android:layout_marginTop="@dimen/wifi_card_margin"
+        card_view:contentPadding="@dimen/wifi_card_padding"
+        card_view:cardElevation="@dimen/wifi_card_elevation"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:layout_weight=".5"
+                    android:text="Network ID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/networkIDTV"
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:text="Nil"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:layout_weight=".5"
+                    android:text="IP Address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/ipTV"
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:text="Nil"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:layout_weight=".5"
+                    android:text="BSSID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/bssid_tv"
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:text="test"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:layout_weight=".5"
+                    android:text="Frequency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/freqTV"
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:text="Nil"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:layout_weight=".5"
+                    android:text="Interface"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/interfaceTV"
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:text="en0"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:layout_weight=".5"
+                    android:text="Link Speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/linkSpeedTV"
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:text="Nil"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:layout_weight=".5"
+                    android:text="Upload Bandwidth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/upBandwithTV"
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:text="1Gbps"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:layout_weight=".5"
+                    android:text="Download Bandwidth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/downBandwidthTV"
+                    android:textSize="@dimen/wifi_card_rssi_text_size"
+                    android:text="1Gbps"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scan for other devices"
+                android:textAllCaps="false"
+                android:id="@+id/scanNetworkButton"
+                android:background="@color/colorPrimary"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">WifiPedia</string>
+    <string name="alert_dialog_password">Password</string>
+    <string name="turn_on_wifi_message">Wifi is switched off</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="hidden_ssid_text">***Hidden SSID***</string>
+    <string name="hidden_network_settings">View hidden networks</string>
+    <string name="hidden_ssid_setting">View hidden networks</string>
+    <string name="wifi_scan_setting_text">Wifi scanning interval (sec)</string>
+    <string name="device_scan_setting_text">Device scanning mode</string>
+    <string name="title_first_section">Section 1</string>
+
+    <string name="wifi_interval_key">WifiInterval</string>
+    <string name="hidden_ssid_key">HiddenSSID</string>
+    <string name="device_interval_key">DeviceInterval</string>
+
+    <string name="wifi_interval_5">5</string>
+    <string name="wifi_interval_10">10</string>
+    <string name="wifi_interval_12">12</string>
+    <string name="wifi_interval_15">15</string>
+    <string name="wifi_interval_18">18</string>
+    <string name="wifi_interval_20">20</string>
+    <string name="wifi_interval_30">30</string>
+    <string name="wifi_interval_60">60</string>
+
+
+
+
+    <string-array name="wifi_intervals">
+        <item>@string/wifi_interval_5</item>
+        <item>@string/wifi_interval_10</item>
+        <item>@string/wifi_interval_12</item>
+        <item>@string/wifi_interval_15</item>
+        <item>@string/wifi_interval_18</item>
+        <item>@string/wifi_interval_20</item>
+        <item>@string/wifi_interval_30</item>
+        <item>@string/wifi_interval_60</item>
+    </string-array>
+
+    <string name="device_interval_fast">Fast</string>
+    <string name="device_interval_medium">Medium</string>
+    <string name="device_interval_slow">Slow</string>
+    <string name="device_interval_deep">Deep</string>
+
+    <string-array name="device_intervals">
+        <item>@string/device_interval_fast</item>
+        <item>@string/device_interval_medium</item>
+        <item>@string/device_interval_slow</item>
+        <item>@string/device_interval_deep</item>
+    </string-array>
+
+
+</resources>

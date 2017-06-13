@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="wifi_card_margin">7dp</dimen>
+    <dimen name="wifi_card_padding">5dp</dimen>
+    <dimen name="wifi_card_elevation">1dp</dimen>
+    <dimen name="wifi_card_margin_bottom">1dp</dimen>
+
+    <!--Text sizes -->
+
+    <dimen name="wifi_card_ssid_label_text_size">25sp</dimen>
+    <dimen name="wifi_card_label_text_size">15sp</dimen>
+    <dimen name="wifi_card_value_text_size">13sp</dimen>
+    <dimen name="wifi_card_rssi_text_size">20sp</dimen>
+    <dimen name="forget_text_size">10sp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="setting_label_text_size">22sp</dimen>
+    <dimen name="button_text">12sp</dimen>
+    <dimen name="button_width">60dp</dimen>
+    <dimen name="button_height">30dp</dimen>
+</resources>
